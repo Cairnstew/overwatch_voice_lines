@@ -50,5 +50,9 @@
     "page": "Widowmaker/Quotes",
     "revision": 381316,
     "url": "https://overwatch.fandom.com/wiki/Widowmaker/Quotes"
-  }
+  },
+  "breeze_file": "voice.breeze",
+  "model": "breeze-tts-2-q4_k.gguf",
+  "model_family": "breeze-tts-2",
+  "model_quant": "q4_k"
 }

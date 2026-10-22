@@ -125,26 +125,36 @@ non-verbal sounds, duplicates and other languages. Tune it with
 `--target-seconds` (default 10), `--min-clip-seconds` / `--max-clip-seconds`, or
 `--language all`; use `--out DIR` to choose a different pack directory.
 
-### Flake packages: wav + transcript for each character
+### Flake packages: wav + transcript + encoded voice
 
 Ready-to-use packs live under `packs/<character>/` and are exposed as flake
-packages. Each output directory contains `reference.wav`, `reference.txt`, and
-the companion `voice.json` / `import.sh` files:
+packages. Each pack carries both the regeneration source and the encoded
+Breeze voice:
+
+| Output | Contents |
+|---|---|
+| `<character>` | `reference.wav`, `reference.txt`, `voice.json`, `import.sh`, `voice.breeze` |
+| `<character>-breeze` | alias for `<character>` (WAV pack) |
+| `<character>-voice` | one file, `<Name>.breeze`, named from `voice.json` |
 
 ```bash
-# Locally
+# WAV + transcript source pack
 nix build .#widowmaker
-ls result/reference.wav result/reference.txt
+ls result/reference.wav result/reference.txt result/voice.breeze
+
+# Encoded voice for a Breeze server
+nix build .#widowmaker-voice
+ls result/Widowmaker.breeze
 
 # From another machine or flake
-nix build github:Cairnstew/overwatch_voice_lines#widowmaker
+nix build github:Cairnstew/overwatch_voice_lines#widowmaker-voice
 ```
 
-`widowmaker-breeze` is an alias for the same package. Every subdirectory of
-`packs/` is discovered automatically, so adding `packs/ana/` publishes an `ana`
-package without changing `flake.nix`.
+The `<character>-voice` package is the small artifact a Breeze server loads as
+a saved voice. Its filename stem becomes the voice id, so it is emitted as
+`Widowmaker.breeze` rather than `voice.breeze`.
 
-Use it from another flake:
+Use either form from another flake:
 
 ```nix
 {
@@ -155,23 +165,37 @@ Use it from another flake:
     # Inside a NixOS/home-manager module:
     environment.etc."breeze/widowmaker".source =
       overwatch-voice-lines.packages.${pkgs.system}.widowmaker;
+
+    environment.etc."breeze/voices/Widowmaker.breeze".source =
+      "${overwatch-voice-lines.packages.${pkgs.system}.widowmaker-voice}/Widowmaker.breeze";
   };
 }
 ```
 
-That gives `/etc/breeze/widowmaker/reference.wav` and
-`/etc/breeze/widowmaker/reference.txt`, which can be fed to Breeze or copied
-into a voice-cloning container.
+`widowmaker` gives `/etc/breeze/widowmaker/reference.wav` and
+`reference.txt`, while `widowmaker-voice` gives the pre-encoded
+`Widowmaker.breeze`. The encoded blob carries the transcript, description and
+metadata, so a consumer does not need to run the model or upload a WAV at
+activation time.
 
-To add a character, build its dataset and export a pack into `packs/`:
+The committed Widowmaker blob was encoded with
+`breeze-tts-2-q4_k.gguf`. The format is tied to the model family and codec, not
+the quantisation: `q4_k` and `q8_0` are compatible, but a different TTS model
+requires regenerating every `.breeze` file. Keep `reference.wav` as the
+regeneration source.
+
+To add a character, build its dataset, export a pack, and encode it:
 
 ```bash
 ovl build Ana
 ovl export-breeze Ana --out packs/ana
+just encode-pack ana https://server.tail685690.ts.net:8445 server
 git add packs/ana && git commit -m "add Ana Breeze reference pack"
 ```
 
-The pack is a normal Nix source path, so the derivation stays pure and remote
+Every subdirectory of `packs/` is discovered automatically, so adding
+`packs/ana/` publishes `ana` and `ana-voice` without changing `flake.nix`. The
+pack is a normal Nix source path, so the derivation stays pure and remote
 fetching does not need network access at build time.
 
 ### Options

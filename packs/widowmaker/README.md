@@ -22,6 +22,12 @@ lines and is 11.17s long (Breeze recommends 5–15s).
 
 This uploads the WAV + transcript as a saved voice named `Widowmaker`.
 
+To encode the compact `.breeze` artifact used by the server:
+
+```bash
+just encode-pack widowmaker https://server.tail685690.ts.net:8445 server
+```
+
 ## Files
 
 | File | Purpose |
@@ -29,6 +35,7 @@ This uploads the WAV + transcript as a saved voice named `Widowmaker`.
 | `reference.wav` | Mono 24 kHz 16-bit PCM reference clip |
 | `reference.txt` | Exact transcript of `reference.wav` |
 | `voice.json` | Manifest with provenance and the selected lines |
+| `voice.breeze` | Encoded voice for a Breeze server (magic `BRZV`) |
 | `import.sh` | One-command `POST /v1/voices` upload |
 | `README.md` | This file |
 
@@ -46,6 +53,7 @@ This uploads the WAV + transcript as a saved voice named `Widowmaker`.
 
 ## Licence
 
-The audio is © Blizzard Entertainment and is intended for personal research
-and experimentation with voice cloning. Do not redistribute it or use a cloned
-voice for impersonation, harassment, or commercial purposes.
+The audio and the derived `.breeze` codes are © Blizzard Entertainment and are
+intended for personal research and experimentation with voice cloning. They are
+not covered by the repository's MIT licence. Do not redistribute them or use a
+cloned voice for impersonation, harassment, or commercial purposes.

@@ -96,6 +96,7 @@ class BreezePack:
             "duration_s": round(self.duration_s, 3),
             "reference_wav": self.wav_path.name,
             "transcript_file": self.transcript_path.name,
+            "breeze_file": "voice.breeze",
             "metadata": self.metadata,
             "clips": [
                 {
@@ -429,8 +430,17 @@ This uploads the WAV + transcript as a saved voice named `{saved_name}`.
 | `reference.wav` | Mono 24 kHz 16-bit PCM reference clip |
 | `reference.txt` | Exact transcript of `reference.wav` |
 | `voice.json` | Manifest with provenance and the selected lines |
+| `voice.breeze` | Optional encoded voice added by `just encode-pack` |
 | `import.sh` | One-command `POST /v1/voices` upload |
 | `README.md` | This file |
+
+To produce the small `.breeze` blob used by a Breeze server, run:
+
+```bash
+just encode-pack <character> <server-url> <ssh-host>
+```
+
+See `packs/README.md` for the model-family compatibility caveat.
 
 ## Transcript
 
@@ -445,8 +455,9 @@ This uploads the WAV + transcript as a saved voice named `{saved_name}`.
 ## Licence
 
 The audio is © Blizzard Entertainment and is intended for personal research
-and experimentation with voice cloning. Do not redistribute it or use a cloned
-voice for impersonation, harassment, or commercial purposes.
+and experimentation with voice cloning. It is not covered by this repository's
+MIT licence. Do not redistribute it or use a cloned voice for impersonation,
+harassment, or commercial purposes.
 """
     (pack_dir / "README.md").write_text(readme, encoding="utf-8")
     return pack
