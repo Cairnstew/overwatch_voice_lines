@@ -1,0 +1,54 @@
+{
+  "name": "Widowmaker",
+  "ref_text": "The Countess was feared by all. Rightfully. A single death can change everything. The performance is about to begin.",
+  "description": "Widowmaker voice reference assembled from 3 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 11.17,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "metadata": {
+    "character": "Widowmaker",
+    "dataset": "Widowmaker",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Widowmaker/Quotes",
+    "source_revision": "381316",
+    "source_url": "https://overwatch.fandom.com/wiki/Widowmaker/Quotes",
+    "reference_seconds": "11.17",
+    "reference_clips": "widowmaker__widowmaker-the-countess-was-feared-by-all-rightful__3dfb8323;widowmaker__widowmaker-a-single-death-can-change-everything__208419e3;widowmaker__widowmaker-the-performance-is-about-to-begin__50feaab1",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "widowmaker__widowmaker-the-countess-was-feared-by-all-rightful__3dfb8323",
+      "text": "The Countess was feared by all. Rightfully.",
+      "section": "Voice Lines",
+      "context": "Halloween Terror / Credits 50",
+      "duration_s": 3.388,
+      "language": "en",
+      "score": 4.307
+    },
+    {
+      "id": "widowmaker__widowmaker-a-single-death-can-change-everything__208419e3",
+      "text": "A single death can change everything.",
+      "section": "Voice Lines",
+      "context": "Default",
+      "duration_s": 2.999,
+      "language": "en",
+      "score": 4.239
+    },
+    {
+      "id": "widowmaker__widowmaker-the-performance-is-about-to-begin__50feaab1",
+      "text": "The performance is about to begin.",
+      "section": "Voice Lines",
+      "context": "Overwatch Archives / Credits 50",
+      "duration_s": 3.633,
+      "language": "en",
+      "score": 4.1
+    }
+  ],
+  "created_at": "2026-10-22 19:26 UTC",
+  "source": {
+    "page": "Widowmaker/Quotes",
+    "revision": 381316,
+    "url": "https://overwatch.fandom.com/wiki/Widowmaker/Quotes"
+  }
+}

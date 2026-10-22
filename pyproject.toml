@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "overwatch-voice-lines"
+version = "0.1.0"
+description = "Download Overwatch hero voice lines and prepare mono wav clips with transcripts for voice cloning."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Cairnstew" }]
+keywords = ["overwatch", "voice-cloning", "dataset", "tts", "wikitext", "ffmpeg"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio :: Conversion",
+    "Topic :: Text Processing :: Markup",
+]
+# Zero runtime dependencies: the wiki client, parser and dataset writer use the
+# standard library only. ffmpeg/ffprobe are external tools, checked at use time.
+dependencies = []
+
+[project.scripts]
+overwatch-voice-lines = "overwatch_voice_lines.cli:main"
+ovl = "overwatch_voice_lines.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.setuptools.packages.find]
+include = ["overwatch_voice_lines*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "live: hits the live Fandom API (requires network; deselect with '-m \"not live\"')",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["overwatch_voice_lines", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF", "C4", "PTH"]
+ignore = [
+    "RUF001", "RUF002", "RUF003",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]

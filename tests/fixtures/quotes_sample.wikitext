@@ -1,0 +1,97 @@
+{{HeroTabs}}
+[[Widowmaker]]'s voice actress speaks English and French.
+
+== Abilities ==
+{| class="listtable"
+|-
+! width="20%" | Ability
+! width="70%" | Quote
+! width="10%" | Audio
+|-
+| rowspan="3" |<center><big>'''Widow's Kiss'''</big><br>'''Scoped'''</center>
+|Don't be shy.
+|{{Audio|Widowmaker - Don't be shy.ogg}}
+|-
+|Let the performance begin.
+||{{Audio|Widowmaker - Let the performance begin.ogg}}
+|-
+|{{QuoteTranslation| quote = Cible repérée. | translation = Target detected.}}
+|{{Audio|Widowmaker - (French) Target detected.ogg}}
+|-
+| rowspan="1" |<center>'''<big>Grappling Hook</big>'''</center>
+|''*grunts*''
+|
+|}
+
+== Non-Languages ==
+{| class="listtable"
+|-
+! width="20%" | Trigger
+! width="70%" | Quote
+! width="10%" | Audio
+|-
+| rowspan="1" | <center><big>'''Jumping'''</big></center>
+|''*jumping grunt*''
+|{{Audio|Widowmaker - (jumping grunt) (1).ogg}} {{Audio|Widowmaker - (jumping grunt) (2).ogg}}
+|-
+| rowspan="1" | <center><big>'''Landing'''</big></center>
+|''*exhales*''
+|{{Audio|Widowmaker - (exhales) (1).ogg}}
+|}
+
+== Interactions ==
+{| class="listtable"
+|-
+! width="20%" |Hero
+! width="70%" |Quotes
+! width="10%" |Audio
+|-
+| rowspan="2" |<center><big>'''[[Ana]]'''</big></center>
+|
+*'''Ana''': I heard Talon failed another mission.
+*'''Widowmaker''': Do not speak to me unless you wish to lose your other eye.
+|
+{{Audio|Ana - I heard Talon failed another mission.ogg}}<br>
+{{Audio|Widowmaker - Do not speak to me unless you wish to lose your other eye.ogg}}
+|-
+|
+*'''Ana''': You were once a legend.
+*'''Widowmaker''': Things change.
+|{{Audio|Ana pregame.ogg}}
+|-
+| rowspan="1" |<center><big>'''[[Baptiste]]''' + '''[[Doomfist]]''' or '''[[Reaper]]'''</big></center>
+|
+*''(one of two):''
+**'''Doomfist''': You're coming with us.
+**'''Reaper''': You're coming with us.
+*'''Baptiste''': Why won't you leave me alone?
+*'''Widowmaker''': You're lucky I just wanted to kill you.
+|
+{{Audio|Doomfist - You're coming with us.ogg}}
+{{Audio|Reaper - You're coming with us.ogg}}<br>
+{{Audio|Baptiste - Why won't you leave me alone.ogg}}<br>
+{{Audio|Widowmaker - You're lucky I just wanted to kill you.ogg}}
+|}
+
+== Voice Lines ==
+{| class="listtable"
+|-
+! width="20%" |Availability
+! width="70%" |Quote
+! width="10%" |Audio
+|-
+| rowspan="1" |<center><big>'''Default'''</big></center>
+|A single death can change everything.
+|{{Audio|Widowmaker - A single death can change everything.ogg}}
+|-
+| rowspan="2" |<center><big>'''{{credits}} 25'''</big></center>
+|Encore?
+|{{Audio|Widowmaker - Encore.ogg}}
+|-
+|''*laughs*'' What power.
+|{{Audio|Widowmaker - What power.wav|frameless}}
+|-
+| rowspan="1" |<center><big>'''{{Summer Icon}} [[Summer Games]]'''</big></center>
+|A perfect 10.
+|{{Audio|Widowmaker - A perfect 10.mp3}}
+|}
