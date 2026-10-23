@@ -18,12 +18,21 @@ nix build .#widowmaker-voice
 # result/Widowmaker.breeze
 ```
 
-Add a new character by exporting a pack into this directory and committing it:
+Add a new character by building its dataset, exporting a pack into this
+directory, encoding it, and committing the result:
 
 ```bash
+python -m overwatch_voice_lines build Ana --limit 60   # data/ana, needs ffmpeg + network
 python -m overwatch_voice_lines export-breeze Ana --out packs/ana
+just encode-pack ana https://server.tail685690.ts.net:8445 server
 git add packs/ana
 ```
+
+`export-breeze` does not fetch anything: it reads the prepared dataset and
+fails with `no prepared dataset for 'Ana' at data/ana` until `build` has run
+once. `--limit` only caps how many clips are downloaded, which is why a pack
+can be built in a minute; the reference needs 5-15 s of clean speech, so a few
+dozen clips is plenty.
 
 No `flake.nix` edit is needed; `builtins.readDir ./packs` discovers it.
 
