@@ -1,0 +1,64 @@
+{
+  "name": "Tracer",
+  "ref_text": "I can't wait to get out there. Can you wait to get out there? Because I can't. Just need to win one more. We can manage that, right? Pre-mission checklist complete. Now it's time for the good bit. I've got a good feeling. This could be our best mission yet!",
+  "description": "Tracer voice reference assembled from 4 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 13.786,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "breeze_file": "voice.breeze",
+  "metadata": {
+    "character": "Tracer",
+    "dataset": "Tracer",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Tracer/Quotes",
+    "source_revision": "308892",
+    "source_url": "https://overwatch.fandom.com/wiki/Tracer/Quotes",
+    "reference_seconds": "13.79",
+    "reference_clips": "tracer__tracer-i-can-t-wait-to-get-out-there-can-you-wait__07ed85fb;tracer__tracer-just-need-to-win-one-more-we-can-manage-tha__7b461c58;tracer__tracer-pre-mission-checklist-complete-now-it-s-tim__f0537d1e;tracer__tracer-i-ve-got-a-good-feeling-this-could-be-our-b__3cfea1e9",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "tracer__tracer-i-can-t-wait-to-get-out-there-can-you-wait__07ed85fb",
+      "text": "I can't wait to get out there. Can you wait to get out there? Because I can't.",
+      "section": "Chatter",
+      "context": "During Set-Up",
+      "duration_s": 3.1,
+      "language": "en",
+      "score": 3.92
+    },
+    {
+      "id": "tracer__tracer-just-need-to-win-one-more-we-can-manage-tha__7b461c58",
+      "text": "Just need to win one more. We can manage that, right?",
+      "section": "Chatter",
+      "context": "Match Start / Won Previous Round",
+      "duration_s": 3.084,
+      "language": "en",
+      "score": 3.91
+    },
+    {
+      "id": "tracer__tracer-pre-mission-checklist-complete-now-it-s-tim__f0537d1e",
+      "text": "Pre-mission checklist complete. Now it's time for the good bit.",
+      "section": "Chatter",
+      "context": "During Set-Up",
+      "duration_s": 3.345,
+      "language": "en",
+      "score": 3.893
+    },
+    {
+      "id": "tracer__tracer-i-ve-got-a-good-feeling-this-could-be-our-b__3cfea1e9",
+      "text": "I've got a good feeling. This could be our best mission yet!",
+      "section": "Chatter",
+      "context": "During Set-Up",
+      "duration_s": 2.807,
+      "language": "en",
+      "score": 3.744
+    }
+  ],
+  "created_at": "2026-10-23 13:22 UTC",
+  "source": {
+    "page": "Tracer/Quotes",
+    "revision": 308892,
+    "url": "https://overwatch.fandom.com/wiki/Tracer/Quotes"
+  }
+}

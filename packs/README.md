@@ -37,6 +37,21 @@ A pack must contain at least:
 The extra `import.sh` and `README.md` written by `export-breeze` are included so
 the package is directly usable.
 
+## Available packs
+
+| Package | Voice id | Reference | Clips |
+| --- | --- | --- | --- |
+| `ana` / `ana-voice` | `Ana` | 12.31 s | 5 |
+| `cassidy` / `cassidy-voice` | `Cassidy` | 13.91 s | 4 |
+| `mercy` / `mercy-voice` | `Mercy` | 13.61 s | 7 |
+| `moira` / `moira-voice` | `Moira` | 14.94 s | 4 |
+| `reaper` / `reaper-voice` | `Reaper` | 14.00 s | 4 |
+| `sombra` / `sombra-voice` | `Sombra` | 12.39 s | 4 |
+| `tracer` / `tracer-voice` | `Tracer` | 13.79 s | 4 |
+| `widowmaker` / `widowmaker-voice` | `Widowmaker` | 11.17 s | 3 |
+
+Each is built by `export-breeze` from that character's wiki quote page
+and encoded against a running Breeze server (`just encode-pack <slug>`).
 ## Encoding `voice.breeze`
 
 The `.breeze` file is a small binary container (magic `BRZV`) holding the

@@ -1,0 +1,64 @@
+{
+  "name": "Sombra",
+  "ref_text": "Easy in, easy out. Let's get the job done. Hm... I think I can make this worth my time. In my world, there are no secrets. I've had worse missions, but this is pretty bad.",
+  "description": "Sombra voice reference assembled from 4 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 12.389,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "breeze_file": "voice.breeze",
+  "metadata": {
+    "character": "Sombra",
+    "dataset": "Sombra",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Sombra/Quotes",
+    "source_revision": "377213",
+    "source_url": "https://overwatch.fandom.com/wiki/Sombra/Quotes",
+    "reference_seconds": "12.39",
+    "reference_clips": "sombra__sombra-easy-in-easy-out-let-s-get-the-job-done__c2e3f796;sombra__sombra-i-think-i-can-make-this-worth-my-time__cefd815a;sombra__sombra-in-my-world-there-are-no-secrets__8336f406;sombra__sombra-i-ve-had-worse-missions-but-this-is-pretty__19e264cf",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "sombra__sombra-easy-in-easy-out-let-s-get-the-job-done__c2e3f796",
+      "text": "Easy in, easy out. Let's get the job done.",
+      "section": "Chatter",
+      "context": "Match Start",
+      "duration_s": 3.188,
+      "language": "en",
+      "score": 3.973
+    },
+    {
+      "id": "sombra__sombra-i-think-i-can-make-this-worth-my-time__cefd815a",
+      "text": "Hm... I think I can make this worth my time.",
+      "section": "Chatter",
+      "context": "During Set-Up",
+      "duration_s": 2.935,
+      "language": "en",
+      "score": 3.821
+    },
+    {
+      "id": "sombra__sombra-in-my-world-there-are-no-secrets__8336f406",
+      "text": "In my world, there are no secrets.",
+      "section": "Chatter",
+      "context": "Hero Selected",
+      "duration_s": 2.481,
+      "language": "en",
+      "score": 3.489
+    },
+    {
+      "id": "sombra__sombra-i-ve-had-worse-missions-but-this-is-pretty__19e264cf",
+      "text": "I've had worse missions, but this is pretty bad.",
+      "section": "Chatter",
+      "context": "Match Start / Lost Previous Round",
+      "duration_s": 2.335,
+      "language": "en",
+      "score": 3.461
+    }
+  ],
+  "created_at": "2026-10-23 13:22 UTC",
+  "source": {
+    "page": "Sombra/Quotes",
+    "revision": 377213,
+    "url": "https://overwatch.fandom.com/wiki/Sombra/Quotes"
+  }
+}

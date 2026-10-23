@@ -1,0 +1,64 @@
+{
+  "name": "Moira",
+  "ref_text": "Much lies in store. Let us see to it. More field research? Grand... I'll see this matter resolved. Humanity is shackled. I will find the key.",
+  "description": "Moira voice reference assembled from 4 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 14.943,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "breeze_file": "voice.breeze",
+  "metadata": {
+    "character": "Moira",
+    "dataset": "Moira",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Moira/Quotes",
+    "source_revision": "381072",
+    "source_url": "https://overwatch.fandom.com/wiki/Moira/Quotes",
+    "reference_seconds": "14.94",
+    "reference_clips": "moira__moira-much-lies-in-store-let-us-see-to-it__d115edbb;moira__moira-more-field-research-grand__7b3f661f;moira__moira-i-ll-see-this-matter-resolved__33179106;moira__moira-humanity-is-shackled-i-will-find-the-key__ed9b5984",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "moira__moira-much-lies-in-store-let-us-see-to-it__d115edbb",
+      "text": "Much lies in store. Let us see to it.",
+      "section": "Chatter",
+      "context": "During Set-Up",
+      "duration_s": 3.401,
+      "language": "en",
+      "score": 3.859
+    },
+    {
+      "id": "moira__moira-more-field-research-grand__7b3f661f",
+      "text": "More field research? Grand...",
+      "section": "Chatter",
+      "context": "During Set-Up",
+      "duration_s": 3.305,
+      "language": "en",
+      "score": 3.677
+    },
+    {
+      "id": "moira__moira-i-ll-see-this-matter-resolved__33179106",
+      "text": "I'll see this matter resolved.",
+      "section": "Chatter",
+      "context": "During Set-Up",
+      "duration_s": 2.46,
+      "language": "en",
+      "score": 3.356
+    },
+    {
+      "id": "moira__moira-humanity-is-shackled-i-will-find-the-key__ed9b5984",
+      "text": "Humanity is shackled. I will find the key.",
+      "section": "Chatter",
+      "context": "Hero Selected",
+      "duration_s": 4.327,
+      "language": "en",
+      "score": 3.304
+    }
+  ],
+  "created_at": "2026-10-23 13:22 UTC",
+  "source": {
+    "page": "Moira/Quotes",
+    "revision": 381072,
+    "url": "https://overwatch.fandom.com/wiki/Moira/Quotes"
+  }
+}

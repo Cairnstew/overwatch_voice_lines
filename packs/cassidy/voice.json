@@ -1,0 +1,64 @@
+{
+  "name": "Cassidy",
+  "ref_text": "Not our finest hour, but we can still make it right. We just need to win one more round. No problem. We can't afford to lose another one. Everyone, buckle up. Hope they've packed up their bags for when we drive 'em out.",
+  "description": "Cassidy voice reference assembled from 4 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 13.909,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "breeze_file": "voice.breeze",
+  "metadata": {
+    "character": "Cassidy",
+    "dataset": "Cassidy",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Cassidy/Quotes",
+    "source_revision": "381164",
+    "source_url": "https://overwatch.fandom.com/wiki/Cassidy/Quotes",
+    "reference_seconds": "13.91",
+    "reference_clips": "cassidy__cassidy-not-our-finest-hour-but-we-can-still-make__eac6d2a4;cassidy__cassidy-we-just-need-to-win-one-more-round-no-prob__b385d8f7;cassidy__cassidy-we-can-t-afford-to-lose-another-one-everyo__b0708a39;cassidy__cassidy-hope-they-ve-packed-up-their-bags-for-when__1ddb7af2",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "cassidy__cassidy-not-our-finest-hour-but-we-can-still-make__eac6d2a4",
+      "text": "Not our finest hour, but we can still make it right.",
+      "section": "Chatter",
+      "context": "Match Start",
+      "duration_s": 3.188,
+      "language": "en",
+      "score": 3.973
+    },
+    {
+      "id": "cassidy__cassidy-we-just-need-to-win-one-more-round-no-prob__b385d8f7",
+      "text": "We just need to win one more round. No problem.",
+      "section": "Chatter",
+      "context": "Match Start",
+      "duration_s": 3.215,
+      "language": "en",
+      "score": 3.971
+    },
+    {
+      "id": "cassidy__cassidy-we-can-t-afford-to-lose-another-one-everyo__b0708a39",
+      "text": "We can't afford to lose another one. Everyone, buckle up.",
+      "section": "Chatter",
+      "context": "Match Start",
+      "duration_s": 3.033,
+      "language": "en",
+      "score": 3.88
+    },
+    {
+      "id": "cassidy__cassidy-hope-they-ve-packed-up-their-bags-for-when__1ddb7af2",
+      "text": "Hope they've packed up their bags for when we drive 'em out.",
+      "section": "Chatter",
+      "context": "Match Start",
+      "duration_s": 3.023,
+      "language": "en",
+      "score": 3.874
+    }
+  ],
+  "created_at": "2026-10-23 13:22 UTC",
+  "source": {
+    "page": "Cassidy/Quotes",
+    "revision": 381164,
+    "url": "https://overwatch.fandom.com/wiki/Cassidy/Quotes"
+  }
+}

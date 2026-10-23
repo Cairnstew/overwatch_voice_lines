@@ -1,0 +1,64 @@
+{
+  "name": "Reaper",
+  "ref_text": "Let's try not to screw this up. Everything's going according to plan. Don't fail me. Or else. Screw up again and this is over.",
+  "description": "Reaper voice reference assembled from 4 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 14.002,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "breeze_file": "voice.breeze",
+  "metadata": {
+    "character": "Reaper",
+    "dataset": "Reaper",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Reaper/Quotes",
+    "source_revision": "381166",
+    "source_url": "https://overwatch.fandom.com/wiki/Reaper/Quotes",
+    "reference_seconds": "14.00",
+    "reference_clips": "reaper__reaper-let-s-try-not-to-screw-this-up__17dfb28c;reaper__reaper-everything-s-going-according-to-plan__dbf6e0d8;reaper__reaper-don-t-fail-me-or-else__528fa172;reaper__reaper-screw-up-again-and-this-is-over__cf1b4afb",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "reaper__reaper-let-s-try-not-to-screw-this-up__17dfb28c",
+      "text": "Let's try not to screw this up.",
+      "section": "Chatter",
+      "context": "Match Start",
+      "duration_s": 3.193,
+      "language": "en",
+      "score": 3.916
+    },
+    {
+      "id": "reaper__reaper-everything-s-going-according-to-plan__dbf6e0d8",
+      "text": "Everything's going according to plan.",
+      "section": "Chatter",
+      "context": "Set-Up Chatter",
+      "duration_s": 3.201,
+      "language": "en",
+      "score": 3.799
+    },
+    {
+      "id": "reaper__reaper-don-t-fail-me-or-else__528fa172",
+      "text": "Don't fail me. Or else.",
+      "section": "Chatter",
+      "context": "Set-Up Chatter",
+      "duration_s": 3.231,
+      "language": "en",
+      "score": 3.781
+    },
+    {
+      "id": "reaper__reaper-screw-up-again-and-this-is-over__cf1b4afb",
+      "text": "Screw up again and this is over.",
+      "section": "Chatter",
+      "context": "Match Start",
+      "duration_s": 2.927,
+      "language": "en",
+      "score": 3.756
+    }
+  ],
+  "created_at": "2026-10-23 13:22 UTC",
+  "source": {
+    "page": "Reaper/Quotes",
+    "revision": 381166,
+    "url": "https://overwatch.fandom.com/wiki/Reaper/Quotes"
+  }
+}

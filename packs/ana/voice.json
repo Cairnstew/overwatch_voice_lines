@@ -1,0 +1,73 @@
+{
+  "name": "Ana",
+  "ref_text": "Reloading. I can't heal right now. It's just a scratch. You'll be fine. I've seen worse. You're going to live. Enough whining. You're fine. Let me reload. Just a moment.",
+  "description": "Ana voice reference assembled from 5 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 12.314,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "breeze_file": "voice.breeze",
+  "metadata": {
+    "character": "Ana",
+    "dataset": "Ana",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Ana/Quotes",
+    "source_revision": "379402",
+    "source_url": "https://overwatch.fandom.com/wiki/Ana/Quotes",
+    "reference_seconds": "12.31",
+    "reference_clips": "ana__ana-reloading-i-can-t-heal-right-now__1a63b986;ana__ana-it-s-just-a-scratch-you-ll-be-fine__765566d7;ana__ana-i-ve-seen-worse-you-re-going-to-live__f03cf2c5;ana__ana-enough-whining-you-re-fine__9e72e7d5;ana__ana-let-me-reload-just-a-moment__9d9aad22",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "ana__ana-reloading-i-can-t-heal-right-now__1a63b986",
+      "text": "Reloading. I can't heal right now.",
+      "section": "Abilities",
+      "context": "Biotic Rifle",
+      "duration_s": 2.519,
+      "language": "en",
+      "score": 2.951
+    },
+    {
+      "id": "ana__ana-it-s-just-a-scratch-you-ll-be-fine__765566d7",
+      "text": "It's just a scratch. You'll be fine.",
+      "section": "Abilities",
+      "context": "Biotic Rifle",
+      "duration_s": 2.105,
+      "language": "en",
+      "score": 2.763
+    },
+    {
+      "id": "ana__ana-i-ve-seen-worse-you-re-going-to-live__f03cf2c5",
+      "text": "I've seen worse. You're going to live.",
+      "section": "Abilities",
+      "context": "Biotic Rifle",
+      "duration_s": 2.071,
+      "language": "en",
+      "score": 2.743
+    },
+    {
+      "id": "ana__ana-enough-whining-you-re-fine__9e72e7d5",
+      "text": "Enough whining. You're fine.",
+      "section": "Abilities",
+      "context": "Biotic Rifle",
+      "duration_s": 2.095,
+      "language": "en",
+      "score": 2.577
+    },
+    {
+      "id": "ana__ana-let-me-reload-just-a-moment__9d9aad22",
+      "text": "Let me reload. Just a moment.",
+      "section": "Abilities",
+      "context": "Biotic Rifle",
+      "duration_s": 1.775,
+      "language": "en",
+      "score": 2.505
+    }
+  ],
+  "created_at": "2026-10-23 13:22 UTC",
+  "source": {
+    "page": "Ana/Quotes",
+    "revision": 379402,
+    "url": "https://overwatch.fandom.com/wiki/Ana/Quotes"
+  }
+}

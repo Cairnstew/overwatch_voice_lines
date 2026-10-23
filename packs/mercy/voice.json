@@ -1,0 +1,91 @@
+{
+  "name": "Mercy",
+  "ref_text": "Not to worry, I'll patch you up. I'll have you in top condition. I'll make sure that doesn't scar. This will just take a moment. Still in your back pocket. Ha! Feel stronger? Let me see what I can do.",
+  "description": "Mercy voice reference assembled from 7 Overwatch voice lines. Clean, close recording; game character delivery.",
+  "duration_s": 13.61,
+  "reference_wav": "reference.wav",
+  "transcript_file": "reference.txt",
+  "breeze_file": "voice.breeze",
+  "metadata": {
+    "character": "Mercy",
+    "dataset": "Mercy",
+    "source": "Overwatch wiki (Fandom)",
+    "source_page": "Mercy/Quotes",
+    "source_revision": "375917",
+    "source_url": "https://overwatch.fandom.com/wiki/Mercy/Quotes",
+    "reference_seconds": "13.61",
+    "reference_clips": "mercy__mercy-not-to-worry-i-ll-patch-you-up__9297fe32;mercy__mercy-i-ll-have-you-in-top-condition__36f18a54;mercy__mercy-i-ll-make-sure-that-doesn-t-scar__ae13cc95;mercy__mercy-this-will-just-take-a-moment__e441422a;mercy__mercy-still-in-your-back-pocket__b99329f7;mercy__mercy-ha-feel-stronger__effc9c8f;mercy__mercy-let-me-see-what-i-can-do__e7011d8d",
+    "language": "en"
+  },
+  "clips": [
+    {
+      "id": "mercy__mercy-not-to-worry-i-ll-patch-you-up__9297fe32",
+      "text": "Not to worry, I'll patch you up.",
+      "section": "Abilities",
+      "context": "Caduceus Staff / Healing",
+      "duration_s": 1.847,
+      "language": "en",
+      "score": 2.608
+    },
+    {
+      "id": "mercy__mercy-i-ll-have-you-in-top-condition__36f18a54",
+      "text": "I'll have you in top condition.",
+      "section": "Abilities",
+      "context": "Caduceus Staff / Healing",
+      "duration_s": 1.657,
+      "language": "en",
+      "score": 2.434
+    },
+    {
+      "id": "mercy__mercy-i-ll-make-sure-that-doesn-t-scar__ae13cc95",
+      "text": "I'll make sure that doesn't scar.",
+      "section": "Abilities",
+      "context": "Caduceus Staff / Healing",
+      "duration_s": 1.596,
+      "language": "en",
+      "score": 2.398
+    },
+    {
+      "id": "mercy__mercy-this-will-just-take-a-moment__e441422a",
+      "text": "This will just take a moment.",
+      "section": "Abilities",
+      "context": "Caduceus Staff / Healing",
+      "duration_s": 1.532,
+      "language": "en",
+      "score": 2.359
+    },
+    {
+      "id": "mercy__mercy-still-in-your-back-pocket__b99329f7",
+      "text": "Still in your back pocket.",
+      "section": "Abilities",
+      "context": "Maintaining / Caduceus Staff / Healing",
+      "duration_s": 1.545,
+      "language": "en",
+      "score": 2.307
+    },
+    {
+      "id": "mercy__mercy-ha-feel-stronger__effc9c8f",
+      "text": "Ha! Feel stronger?",
+      "section": "Abilities",
+      "context": "Caduceus Staff / Damage Boost",
+      "duration_s": 1.615,
+      "language": "en",
+      "score": 2.229
+    },
+    {
+      "id": "mercy__mercy-let-me-see-what-i-can-do__e7011d8d",
+      "text": "Let me see what I can do.",
+      "section": "Abilities",
+      "context": "Caduceus Staff / Healing",
+      "duration_s": 1.468,
+      "language": "en",
+      "score": 1.981
+    }
+  ],
+  "created_at": "2026-10-23 13:22 UTC",
+  "source": {
+    "page": "Mercy/Quotes",
+    "revision": 375917,
+    "url": "https://overwatch.fandom.com/wiki/Mercy/Quotes"
+  }
+}
